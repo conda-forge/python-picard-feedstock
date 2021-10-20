@@ -1,5 +1,5 @@
 {% set name = "python-picard" %}
-{% set version = "0.6" %}
+{% set version = "0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dad377c9a50f9850f85841eba0ffb58ad557885ca93364bb73153f33210b52e2
+  sha256: 8061a1f0c4660c805b7617f2f0bd0284c6e6e84ac3ec782081c67b27cfd185a7
 
 build:
   noarch: python
