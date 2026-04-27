@@ -1,5 +1,5 @@
 {% set name = "python-picard" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 54c474a73b38e9c124f946fdd725d9ac74100f3d00f13ec208084417d0d3bb3b
+  sha256: 42259763f87673837dcc2772cc941139c8ee547093d1b970e95097393c628cde
 
 build:
   noarch: python
